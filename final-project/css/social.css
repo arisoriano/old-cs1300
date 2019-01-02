@@ -1,0 +1,60 @@
+/* Taken from http://jquery-plugins.net/responsive-share-buttons-css-and-jquery */
+
+#share-wrapper {
+	margin-top: 100px;
+	position:fixed;
+	left: 0;
+	z-index: 100;
+}
+
+/* inner wrapper */
+#share-wrapper ul.share-inner-wrp{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* the list */
+#share-wrapper li.button-wrap {
+	background: #E4EFF0;
+	padding: 0px 0px 0px 10px;
+	display: block;
+	width: 140px;
+	margin: 0px 0px 1px -117px;
+}
+
+/* share link */
+#share-wrapper li.button-wrap > a {
+	padding-right: 60px;
+	height: 32px;
+	display: block;
+	line-height: 32px;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+/* background image for each link */
+#share-wrapper .facebook > a{
+	background: url(../images/buttons/facebook.jpg) no-repeat right;
+}
+#share-wrapper .twitter > a{
+	background: url(../images/buttons/twitter.jpg) no-repeat right;
+}
+#share-wrapper .digg > a{
+	background: url(../images/buttons/digg.jpg) no-repeat right;
+}
+.stumbleupon > a{
+	background: url(../images/buttons/stumbleupon.jpg) no-repeat right;
+}
+#share-wrapper .delicious > a{
+	background: url(../images/buttons/delicious.jpg) no-repeat right;
+}
+#share-wrapper .google > a{
+	background: url(../images/buttons/google.jpg) no-repeat right;
+}
+#share-wrapper .email > a{
+	background: url(../images/buttons/email.jpg) no-repeat right;
+}

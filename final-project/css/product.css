@@ -1,0 +1,50 @@
+div#content_table
+{
+    display: table;
+    width: 97%;
+    vertical-align: top;
+    padding: 0px 20px 0px 20px;
+}
+div#cell_1
+{
+    display: table-cell;
+    vertical-align: top;
+    text-align: left;
+    padding: 0px 15px 0px 0px;
+}
+div#cell_2
+{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px 0px 0px 15px;
+}
+div#content_table_2
+{
+    display: table;
+    width: 97%;
+    vertical-align: top;
+    padding: 0px 20px 0px 20px;
+}
+div#cell_3
+{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px 20px 0px 0px;
+}
+div#cell_4
+{
+    display: table-cell;
+    vertical-align: top;
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+}
+img.frame
+{
+    padding: 12px;
+    
+}
+span.red
+{
+    color: #660000;
+    font-size: 115%;
+}

@@ -1,0 +1,236 @@
+/* Import font face */
+	@font-face {
+		font-family: '"Helvetica Neue"';
+		src: url("../Fonts/Hei.ttf");
+		font-family: '"Avenir"';
+		src: url("../Fonts/Avenir.ttc");
+		}
+	
+/* Properties set here affect entire page */	
+	html, body {
+		font-family: Avenir;
+		color: black;
+		background:url(../Images/back.jpg) center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 0;
+		}
+	address {
+		text-decoration: none;
+		font-style: normal;
+		}
+/* Paragraph style*/
+	p.left {
+		text-align: left;
+		}
+/* Header 1 style */
+	h1.reg {
+		font-family: Helvetica Neue;
+		text-align: left;
+		color: #520b11;
+		background-color: #dbe6cd;
+		font-size: 105%;
+		padding: 7px;
+		}
+/*Modified Header 1 style for Home Page*/
+	h1.mod {
+		font-family: Avenir;
+		font-weight: lighter;
+		font-size: 135%;
+		color: maroon;
+		font-style: italic;
+		padding: 10px;
+		margin-left: 15px;
+		letter-spacing: 4px;
+		}
+/* Positioning logo correctly class*/
+	img.logo {
+		text-align: left;
+		padding-left: 20px;
+		padding-top: 20px;
+		}
+/*Circle image class*/
+	.circle_image {
+		width: 50px;
+		height: 50px;
+		border-radius: 150px;
+		-webkit-border-radius: 150px;
+		-moz-border-radius: 100px;
+		background: url("../Images/prof_pic.jpg") no-repeat;
+		box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		padding: 40px;
+		margin: 30px;
+		}
+/* Unordered list style for navigation bar*/
+	ul.navbar {
+		display: block;
+		list-style-type: none;
+		padding-top: 6px;
+		width: 500px;
+		}
+/* Unordered list style for items*/
+	ul.items {
+		display: block;
+		list-style-type: none;
+		padding-top: 6px;
+		width: 170px;
+		}
+/*List style for normal items*/
+	li.items {
+		display:block;
+		float:left; 
+		padding: 2px;
+		color: #333300;
+		}
+/*List style for navigation bar*/
+	li.navbar {
+		display: inline;
+		text-align: left;
+		}
+/*Link style - navigation bar*/
+	a:link.navi, a:visited.navi {
+		font-family: Avenir;
+		font-weight:bold;
+		color:#FFFFFF;
+		background-color: #483a6b;
+		text-align:center;
+		padding:6px;
+		text-decoration:none;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px; 
+		}
+	a:hover.navi, a:active.navi {
+		background-color:#8773b9;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px; 
+		}
+/*Indicator for Home page*/
+	a:link.home, a:visited.home {
+		font-family: Avenir;
+		font-weight:bold;
+		color:#FFFFFF;
+		background-color:#aa7d58;
+		text-align:center;
+		padding:6px;
+		text-decoration:none;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px; 
+		}
+/*Indicator for About page*/
+	a:link.about, a:visited.about {
+		font-family: Avenir;
+		font-weight:bold;
+		color:#FFFFFF;
+		background-color:#aa7d58;
+		text-align:center;
+		padding:6px;
+		text-decoration:none;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px; 
+		}
+/*Indicator for Start page*/
+	a:link.start, a:visited.start {
+		font-family: Avenir;
+		font-weight:bold;
+		color:#FFFFFF;
+		background-color:#aa7d58;
+		text-align:center;
+		padding:6px;
+		text-decoration:none;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px; 
+		}
+/*Indicator for Nutrition page*/
+	a:link.nutrition, a:visited.nutrition {
+		font-family: Avenir;
+		font-weight:bold;
+		color:#FFFFFF;
+		background-color:#aa7d58;
+		text-align:center;
+		padding:6px;
+		text-decoration:none;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px; 
+		}
+/*Indicator for Exercise page*/
+	a:link.exercise, a:visited.exercise {
+		font-family: Avenir;
+		font-weight:bold;
+		color:#FFFFFF;
+		background-color:#aa7d58;
+		text-align:center;
+		padding:6px;
+		text-decoration:none;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px; 
+		}
+/*Indicator for Sleep page*/
+	a:link.sleep, a:visited.sleep {
+		font-family: Avenir;
+		font-weight:bold;
+		color:#FFFFFF;
+		background-color:#aa7d58;
+		text-align:center;
+		padding:6px;
+		text-decoration:none;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px; 
+		}
+/*Link style - regular*/
+	a:link.reg, a:visited.reg {
+		text-decoration: none;
+		color: maroon;
+		}
+	a:hover.reg, a:active.reg {
+		text-decoration: none;
+		color: red;
+		}
+/* Overall page layout */
+	#page-layout {
+		margin-right: 13%;
+		margin-left: 13%;
+		background-color: #FFFFFF;
+		box-shadow: 0px 10px 40px 1px #888888;
+		}
+/* Navigation */
+	#nav {
+		background: url(../Images/banner_back.png) center;
+		background-color: #483a6b; 
+		background-size: cover;
+		height: 193px;
+		}
+/* Marker bar */
+	#marker_a {
+		background-color: #aa7d58; 
+		height: 7px;
+		}
+/* Sidebar */
+	#sidebar {
+		background-color: white;
+		background: url(../Images/side_bar_back.png) bottom center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		float: left;
+		width: 200px;
+		height: 700px;
+		}
+/* Content */
+	#content {
+		background-color: white;
+		margin-left: 200px;
+		padding: 13px;
+		text-align: left;
+		}
+/* Footer */
+	#footer {
+		clear: both;
+		background-color: #aa7d58;
+		height: 20px;
+		text-align: center;
+		margin-top: auto;
+		margin-bottom: auto;
+		padding: 2px;
+		font-size: 75%
+		}

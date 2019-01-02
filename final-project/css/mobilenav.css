@@ -1,0 +1,53 @@
+.navbar,
+	.navbar ul,
+	.navbar li .navbar a {
+		list-style: none;
+		margin-top: 0;
+		padding: 0;
+		border: 0;
+		font-size: 125%;
+		font-family: 'Lato',sans-serif;
+		letter-spacing: 1px;
+		line-height: 1;
+		max-width: 100%;
+		max-height: 100%;
+		}
+	.navbar {
+		width: auto;
+		}
+	.navbar ul {
+		background: #660000 url(../images/nav_pattern.png)
+		top left
+		repeat;
+		border-top: 1px solid #3d0b0c;
+		}
+	.navbar ul:before {
+		content: '';
+		display: block;
+		}
+	.navbar ul:after {
+		content: '';
+		display: table;
+		clear: both;
+		}
+	.navbar li {
+		float: left;
+		border-right: 1px solid #941a1c;
+		padding: 3%;
+		}
+	.navbar li:first-child {
+		border-left: none;
+		border-radius: 4px 0 0 4px;
+		}
+	.navbar	a:link, .navbar a:visited{
+		text-decoration: none;
+		color: #fff;
+		}
+	.navbar	a:hover, .navbar a:active, .navbar a.currentPage
+		{
+		text-decoration: none;
+		color: #ffff00;
+		}
+	.center {
+		text-align: center;	
+		}

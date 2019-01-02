@@ -1,0 +1,89 @@
+html, body
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 105%;
+	background: url(../images/assorted_apples.jpg) no-repeat fixed;
+	/*Copyright 2013, Shane Soh--a personal friend of one of our group members took the bg image*/
+	background-size: cover;
+	min-width: 1150px;
+	color: #000000;
+	padding: 0%;
+	margin:0%;
+	width:100%;
+}
+body:before
+{
+	content: "";
+	position: fixed;
+	top: -10px;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	z-index: 100;
+	-webkit-box-shadow: 0px 0px 10px #111;
+	-moz-box-shadow: 0px 0px 10px #111;
+	box-shadow: 0px 0px 20px #111;			  
+}
+h2
+{
+	color: #660000;
+	margin: 5px 0px 5px 0px;
+}
+/*Link style - regular*/
+    a:link.regg, a:visited.regg
+{
+	text-decoration: none;
+	border-bottom: 1px dotted #ff0000;
+	color: #000;
+}
+    a:hover.regg, a:active.regg
+{
+	text-decoration: none;
+	border: none;
+	color: #ff0000;
+}
+/*Link style - footer*/
+ a:link.foot, a:visited.foot
+ {
+	text-decoration: none;
+	color: #fff;
+ }
+ a:hover.foot, a:active.foot
+ {
+	text-decoration: none;
+	color: #ffff66;
+ }
+div#page-layout {
+	background: url(../images/wood_back_3.jpg);
+	background-repeat: repeat-y; 
+	margin: auto;
+	margin-bottom: 3%;
+	padding: 0% 2% 0% 2%;
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px;
+	border: 1px solid #000000;
+	box-shadow: 0px 8px 40px 6px #111;
+	max-width: 982px;
+}
+.main
+{
+	color:#000;
+	background-color: #ffffee;
+	padding: 2%;
+	vertical-align: top;
+	margin:auto;
+	-webkit-box-shadow: 8px 8px 10px #111;
+	-moz-box-shadow: 8px 8px 10px #111;
+	box-shadow: 8px 8px 10px #111;
+	border-radius: 5px;
+	border-top: 3px solid #fff;
+	border-left: 3px solid #fff;
+}
+div#footer
+{
+	background: transparent;
+	font-size: 90%;
+	color: #fff;
+	text-align:center;
+	padding: 2%;
+}

@@ -1,0 +1,15 @@
+img.frame
+{
+    border-top: 6px solid #990000;
+    border-left: 6px solid #990000;
+    width: 708px;
+    height: 600px;
+    padding: 20px;
+    background: #660000;
+    border-radius: 20px;
+    box-shadow: 8px 8px 20px #111;
+}
+p.center
+{
+    text-align: center;
+}

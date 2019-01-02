@@ -1,0 +1,67 @@
+ul#sidebar
+{
+	list-style:none;
+	vertical-align: top;
+	font-size:125%;
+	width: auto;
+	margin-top: 10px;
+}
+ul#sidebar li
+{
+	padding: 5px 12px 5px 12px;
+	text-align: center;
+}
+ul#sidebar a:link,ul#sidebar a:visited
+{
+	color:#ffffcc;
+	background-color:#660000;
+	display: block;
+	padding:6px 24px;
+	border-radius:6px;
+	text-decoration:none;
+}
+ul#sidebar a:hover,ul#sidebar a:active
+{
+	background-color:#FF0000;
+	color:#ffffee;
+	text-decoration:none;
+	display: block;
+}
+div#content
+{
+	padding-left: 163px;
+	padding-right: 2%;
+	display: table-cell;
+}
+div#info
+{
+	padding: 0px 20px 20px 20px;
+	vertical-align: top;
+}
+div.bio_table
+{
+	display: table;
+}
+div.bio_cell
+{
+	display: table-cell;
+	padding: 15px;
+	vertical-align: middle;
+}
+.circleimg
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(../images/mary.jpg) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+.cen
+{
+	text-align: center;
+	margin: auto;
+}

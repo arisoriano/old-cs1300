@@ -1,0 +1,109 @@
+/* Import font face */
+	@font-face {
+		font-family: '"Helvetica Neue"';
+		src: url("../Fonts/Hei.ttf");
+		font-family: '"Avenir"';
+		src: url("../Fonts/Avenir.ttc");
+		}
+	
+/* Properties set here affect entire page */	
+	html, body {
+		font-family: Avenir;
+		color: black;
+		background:url(../Images/green_cross_tile.jpg) center center;
+		background-repeat: repeat;
+		margin-right: 6%;
+		margin-left: 6%;
+		padding: 0;
+		}
+/* Paragraph style*/
+	p {
+		text-align: center;
+		}
+	blockquote {
+		text-align: center	
+		}
+/* Center class*/
+	.center {
+		text-align: center;
+		margin: auto;
+		}
+/* Header 1 style */
+	h1 {
+		font-family: Helvetica Neue;
+		text-align: left;
+		color: maroon;
+		background-color: #dbe6cd;
+		font-size: 100%;
+		padding: 5px;
+		}
+/* Unordered list style*/
+	ul {
+		display: block;
+		list-style-type: none;
+		padding-top: 6px;
+		margin: auto;
+		width: 500px;
+		}
+/*List item style*/
+	li.navbar {
+		display: inline;
+		float: left;
+		}
+/*Link style*/
+	a:link, a:visited {
+		font-family: Avenir;
+		font-weight:bold;
+		color:#FFFFFF;
+		background-color:#8773b9;
+		text-align:center;
+		padding:6px;
+		text-decoration:none;
+		}
+	a:hover, a:active {
+		background-color:#48006f;
+		}
+/*Link style - regular*/
+	.areg{
+		text-decoration: none;
+		color: #8773b9;
+		}
+/* Overall page layout */
+	#page-layout {
+		margin: auto
+		}
+/* Navigation */
+	#nav {
+		background: #8773b9;
+		height: 34px;
+		}
+/* Header */
+	#header {
+		background: url("../Images/banner_back.jpg") ;
+		height: 150px;
+		padding: 10px;
+		}
+/* Sidebar */
+	#sidebar {
+		background: white;
+		float: left;
+		width: 200px;
+		height: 152px;
+		}
+/* Content */
+	#content {
+		background-color: white;
+		margin-left: 200px;
+		padding: 10px;
+		text-align: left;
+		}
+/* Footer */
+	#footer {
+		clear: both;
+		background-color: #b99273;
+		height: 20px;
+		text-align: center;
+		margin-top: auto;
+		margin-bottom: auto;
+		font-size: 90%
+		}

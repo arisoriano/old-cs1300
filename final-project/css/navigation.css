@@ -1,0 +1,42 @@
+nav#navigation
+{
+	text-align:center;
+	background: url(../images/slogan.png) no-repeat;
+	background-position: right 300px top 56px;
+	border-top-right-radius: 9px;
+	border-top-left-radius: 9px;
+	max-width: 100%;
+}
+nav#navigation ul
+{
+	vertical-align: top;
+	list-style: none;
+	padding: 3px 0px 0px 25px;
+	text-align: center;
+	white-space: nowrap;
+	overflow-x: auto;
+	display: inline;
+	max-width: 100%;
+}
+nav#navigation li
+{
+	display:inline-block;
+	padding: 10px 0px 15px 0px;
+}
+nav#navigation ul a:link,ul#navigation a:visited
+{
+	padding:0px 20px;
+}
+nav#navigation ul a:hover,ul#navigation a:active
+{
+}
+nav#navigation ul a.currentPage:link, ul#navigation a.currentPage:visited
+{
+}
+nav#navigation ul a.currentPage:hover, ul#navigation a.currentPage:active
+{
+}
+ul.top_align
+{
+	vertical-align: top;
+}

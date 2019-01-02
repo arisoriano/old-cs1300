@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<!-- Creates a small icon for bookmarking purposes in the
+		address bar of the broswer or tab area, depending which browser
+		is used-->
+		<link rel="shortcut icon" href="../Images/Other/favicon.ico"
+		type="image/x-icon">
+		<link rel="icon" href="../Images/Other/favicon.ico"
+		type="image/x-icon">
+		
+		<title>31st Annual Ithaca Apple Harvest Festival | Home</title>
+		<link href='http://fonts.googleapis.com/css?family=Gochi+Hand|Gloria+Hallelujah|Raleway:300' 
+		rel='stylesheet' type='text/css'>
+		<link type = "text/css" rel="stylesheet"
+		href="../CSS/festival.css">
+		
+		<!--Credit for JQuery zoom-in script: ElevateWeb
+		(elevateweb.co.uk/image-zoom)-->
+		<script src =
+		'../JQuery/jquery-1.8.3.min.js'></script>
+		<script src =
+		'../JQuery/jquery.elevatezoom.js'></script>
+	</head>
+<body>
+	<div id= "page-layout">
+		<div id = "nav">
+		<a href="index.html">
+				<img class = "logo" src = "../Images/Logos/apple_fest_1.png"
+				alt = "assorted apples">
+			</a>
+		<div id="navbar">
+			<ul>
+			   <li id = "navbar_h_vendors">
+			   <a href= "../HTML/vendors.html" >
+			   <span>Vendors</span></a></li>
+			   <li id = "navbar_h_events">
+			   <a href= "../HTML/events.html">
+			   <span>Events</span></a></li>
+			   <li id = "navbar_s">
+			   <a href= "../HTML/directions.html">
+			   <span>Directions</span></a></li>
+			   <li id = "navbar_h_about">
+			   <a href="../HTML/about.html">
+			   <span>About</span></a></li>
+			   <li id = "navbar_h_home">
+			   <a href="../HTML/index.html">
+			   <span>Home</span></a></li>
+			</ul>
+		</div><!--navbar-->
+		</div><!--nav-->
+		<div id = "sidebar_cont">
+			<div id = "content">
+			<h1 class = "reg">
+			Map of Apple Festival Events <span class="red">(hover over map to zoom in)</span>	
+			</h1>
+			<div id = "zoom">
+			<img id="zoom_01" class = "zoom"
+			src = "../Images/Other/map_2013_small.jpg"
+			data-zoom-image =
+			"../Images/Other/map_2013_large.jpg" alt = "map"/>
+			</div><!--zoom-->
+			<p></p>
+			<h1 class = "reg">Location for 2013</h1>
+The festival takes place in the heart of Downtown Ithaca. It starts on the 100 W. Block of State Street and continues through the Commons east toward Cornell University. The walking path of the festival takes you by the large mural project in the Commons of over 200 different art pieces by local organizations and artists. It also leads you by the historic State Theatre, Ithaca Commons, Restaurant Row, and the Community School of Music and Arts (CSMA).
+The festival will have an additional entertainment area added this year. It is on the east end of the Commons by the CSMA. Here you will find a variety of farm goods, children's entertainment and a new sound stage for performance. As the Commons undergoes a historic transformation, we are expanding the footprint of the festival.
+<p></p>
+		<h1 class = "reg">Directions by Bus: TCAT</h1>
+<h2>West Hill:</h2>Route 14 or Route 20 (from EcoVillage) to Green @ the Commons.
+<h2>Cornell University:</h2> Route 10 (Friday only), Route 43 (Friday only), Route 30, Route 72, Route 51, or, Route 70 (Saturday/Sunday only) to Seneca @ the Commons.
+<h2>Ithaca College:</h2> Route 11 to Seneca @the Commons.
+<h2>Caroline:</h2> Route 52 to Seneca @the Commons. Note: Limited Saturday service, no Sunday service.
+<h2>Danby:</h2> Route 65 to Seneca @ the Commons. Note: Limited Saturday service, no Sunday service.
+<h2>Dryden:</h2>
+<p></p>
+Friday: Route 43 to Green @ the Commons.
+<p></p>
+Weekend: Route 75 to the Shops @ Ithaca Mall; transfer to route 70, route 13 (Saturday only), or route 30 to the Commons.
+<h2>Enfield:</h2>Route 20 to Green @ the Commons.
+<h2>Groton/Freeville:</h2>
+<p></p>
+Friday: Route 40 or Route 43 to Green @ the Commons.
+<p></p>
+Weekend: Route 74 to the Shops @ Ithaca Mall. Transfer to route 70, route 13 (Saturday), or route 30 to Seneca @ the Commons.
+<h2>Lansing (the Shops at Ithaca Mall):</h2>
+Route 30, Route 13 (Friday/Saturday only) or route 70 (Saturday/Sunday only) to Seneca @ the Commons.
+<h2>Newfield:</h2>Route 67 to Green @ the Commons. Note: Limited Saturday/Sunday service.
+<h2>Trumansburg:</h2>Route 21 to Green @ the Commons. Note: Limited Saturday/Sunday service.
+<p></p>
+			</div><!--content-->
+		</div><!--sidebar_cont-->
+		<div id = "before_footer"><img src =
+		"../Images/Other/footer_adjust.png" class = "footer_img" alt =
+		"footer">
+		</div><!--before_footer-->
+		<div id = "footer">
+	171 E.State St., PMB#136 Center Ithaca, Ithaca, NY 14850  |  (607)277-8679 | 
+		&copy; 2013 by
+		<a href="mailto:aas257@cornell.edu" class = "reg">
+		Ariel Soriano</a>
+		</div><!--footer-->
+	</div><!--page layout-->
+<script>
+	$('#zoom_01').elevateZoom({
+	zoomType: "inner",
+cursor: "crosshair",
+zoomWindowFadeIn: 500,
+zoomWindowFadeOut: 750
+	});
+</script><!--JQuery-->
+</body>
+</html>

@@ -1,0 +1,261 @@
+    html, body {
+	color: #7ff000;
+	background: url(../Images/Backgrounds/slate_back_2.jpg) fixed;
+	background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+	padding: 0px;
+	margin: 0px;
+        }
+    body:before {
+	content: "";
+	position: fixed;
+	top: -10px;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	z-index: 100;
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.8);			  
+	}
+    address {
+	text-decoration: none;
+	font-style: normal;
+	}
+    h1.header {
+        font-family: 'Share Tech Mono',sans-serif;
+	padding: 0px;
+	margin-bottom: 0px;
+        font-size: 200%;
+        text-align: left;
+        color: #7fff00
+        }
+    h2.header {
+        font-family: 'Share Tech Mono',sans-serif;
+        font-size: 100%;
+        text-align: left;
+        color: #7fff00;
+        }
+    h2.post {
+        font-family: 'Share Tech Mono',sans-serif;
+        font-size: 14px;
+        text-align: left;
+        }
+    p.right {
+	text-align: right;
+	font-size: 20px;
+	}
+    hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #000, #7ff000, #000); 
+	background-image: -moz-linear-gradient(left, #000, #7ff000, #000); 
+	background-image: -ms-linear-gradient(left, #000, #7ff000, #000); 
+	background-image: -o-linear-gradient(left, #000, #7ff000, #000); 
+	}
+    p.footer {
+	font-family: 'Share Tech Mono';
+	font-size: 13px;
+	color: #7ff000;
+	text-align: center;
+	}
+    form.post {
+	font-family: 'Share Tech Mono',sans-serif;	
+	}
+    input.text {
+	border-radius: 9px;
+	/*font-family: 'Share Tech Mono',sans-serif;*/
+	border: 4px solid #006600;
+	padding: 5px;
+	-webkit-appearance: none;
+	outline: none;
+	}
+    input[type=email] {
+	border-radius: 9px;
+	/*font-family: 'Share Tech Mono',sans-serif;*/
+	border: 4px solid #006600;
+	padding: 5px;
+	-webkit-appearance: none;
+	outline: none;
+	}
+    input[type=radio] {
+	cursor: pointer;
+	outline: none;
+	}
+    input[type=submit] {
+	font-family: 'Electrolize',sans-serif;
+	font-size: 14px;
+	background-color: #7fff00;
+	border: 1px solid #000000;
+	padding: 3px 8px 3px 8px;
+	margin: 0px 3.5px 0px 3.5px;
+	border-radius: 8px;
+	outline: none;
+	cursor: pointer;
+	}
+    input[type=reset] {
+	font-family: 'Electrolize',sans-serif;
+	font-size: 14px;
+	background-color: #7fff00;
+	border: 1px solid #000000;
+	padding: 3px 8px 3px 8px;
+	margin: 0px 3.5px 0px 3.5px;
+	border-radius: 8px;
+	outline: none;
+	cursor: pointer;
+	}
+    textarea.post {
+	border-radius: 9px;
+	border: 4px solid #006600;
+	padding: 5px;
+	-webkit-appearance: none;
+	outline: none;
+	width: 700px;
+	height: 133px;
+	}
+    input.read{
+	background-color: transparent;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	color: #fff;
+	font-family: "Electrolize";
+	font-size: 11px;
+	width: 30px;
+	}
+    /*Link style - regular*/
+    a:link.regg, a:visited.regg {
+	text-decoration: none;
+	color: #fff;
+	}
+    a:hover.regg, a:active.regg {
+	text-decoration: none;
+	color: #7ff000;
+	}
+     /*Link style - footer*/
+    a:link.foot, a:visited.foot {
+	text-decoration: none;
+	color: #7ff000;
+	}
+    a:hover.foot, a:active.foot {
+	text-decoration: none;
+	color: #fff;
+	}
+    span.smaller {
+	font-family: 'Electrolize',sans-serif;
+	font-size: 11px;
+	color: #fff;
+	padding-left: 1%;
+	}
+    span.smallest {
+	font-family: 'Share Tech Mono',sans-serif;
+	text-align: center;
+	font-size: 11px;
+	color: #7ff000;
+	padding-left: 1%;
+	}
+    span.gray {
+	font-family: 'Electrolize',sans-serif;
+	font-size: 11px;
+	color: #777;
+	padding-left: 1%;
+	}
+    span.name {
+	font-family: 'Share Tech Mono',sans-serif;
+	font-size: 20px;
+	color: #fff;
+	}
+    span.copy {
+	font-family: sans-serif;
+	font-size: 13px;
+	color: #7ff000;
+    }
+	
+	
+    /* Current User Posts*/
+    div.current_user {
+	font-family: 'Share Tech Mono';
+	color: #fff;
+        text-align: left;
+	width: 700px;
+	padding: 20px;
+	background-color: #222;
+	border: 1px solid #000;
+	border-right: 1px solid #353535;
+	border-bottom: 1px solid #353535;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    }
+    
+    /* Regular Posts*/
+    div.reg {
+	font-family: 'Share Tech Mono';
+	color: #7ff000;
+        text-align: left;
+	width: 700px;
+	padding: 20px;
+	background-color: #111;
+	border: 1px solid #000;
+	border-right: 1px solid #353535;
+	border-bottom: 1px solid #353535;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	}
+    
+/* Overall page layout */
+    #page-layout {
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-bottom: 3%;
+	border: 1px solid #000000;
+	background-color: #000000;
+	padding: 1%;
+	box-shadow: 0px 16px 40px 6px #111;
+	border-radius: 6px;
+	}
+	
+/* Header */
+    #nav {
+	background-color: #000000;
+	background: url(../Images/Other/header_1.jpg);
+	background-position: center;
+	background-size: cover;
+	height: auto;
+	max-width: 100%;
+	padding: 1%;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	}
+	
+/* Content */
+    #content {
+	background-color: #000000;
+	font-family: 'Share Tech Mono';
+	color: #7fff00;
+        text-align: left;
+	padding: 1%;
+	float: none;
+	}
+	
+/* List of Posts*/
+    #post_list {
+	margin: auto;
+	background-color: #000000;
+	font-family: 'Share Tech Mono';
+	color: #7fff00;
+        text-align: left;
+	padding: 1%;
+	float: none;
+	}
+
+/* Footer */
+    #footer {
+	font-family: 'Electrolize',sans-serif;
+	padding: 0% 1.5% 0% 1.5%;
+	text-align: center;
+	float: none;
+	}
